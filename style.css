@@ -1,0 +1,55 @@
+.heading h1{
+    text-align: center;
+    font-size: 50px;
+}
+.form-class{
+    width: 100%;
+    text-align: center;
+}
+.form-class input{
+    width: 10%;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+#submit{
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+}
+.main-2{
+    border: 10px solid #000000;
+    padding: 20px;
+}
+.main{
+    padding: 15% 0 15% 0;
+    background-color: #A9A9A9;
+    color: #000000;
+    font-family: monospace;
+}
+.result{
+    text-align: center;
+    font-size: 25px;
+}
+@media screen and (max-width: 600px) {
+    .form-class{
+        width: 100%;
+        text-align: center;
+    }
+    .form-class input{
+        display: flex;
+        width: 60%;
+        margin: 20px auto;
+    }
+    #submit{
+        width: auto;
+        margin: 20px auto;
+    }
+}
